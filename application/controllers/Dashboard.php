@@ -5,8 +5,8 @@ class Dashboard extends Auth_Controller {
  
     public function index()
     {
-        echo 'Hello from the Succes Page';
-        //echo "<meta http-equiv='refresh' content='5;url=http://shopee.co.id'>";
+        echo 'Hello from the Succes Page, wait 5 second..';
+        echo "<meta http-equiv='refresh' content='5;url=http://shopee.co.id'>";
 
     }
 }
